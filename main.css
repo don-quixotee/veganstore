@@ -1,12 +1,9 @@
+
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
 
-/* input, textarea {
-    font-family: 'Poppins', sans-serif;
-    outline: none;
-} */
 
 
 
@@ -148,6 +145,7 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: stretch;
+    flex-wrap: wrap;
 }
 
 
@@ -173,6 +171,99 @@ footer {
     background-color: #f69dad;
 
 }
-.stepbox i{
-    size: 60px;
+
+/* .stepbox i{
+    font-size: 100px;
+    transition: all 0.5s;
+} */
+
+
+.stepbox h3 {
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.stepbox p {
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    line-height: 1.6;
+    margin-top: 0;
+}
+
+.stepbox:hover i{
+    transform: scale(1.1,1.1);
+
+}
+
+/* store item and heading  */
+
+#section3{
+
+        width: 100%;
+        background-color: #f7eee2;
+        padding-top: 75px;
+        padding-bottom: 75px;
+        text-align: center;
+    
+}
+#store-box{
+
+    width: 100%;
+    max-width: 1140px;
+    display: flex;
+    justify-content: stretch;
+    margin: 0 auto;
+
+}
+.store-icons{
+    display: inline-block;
+    background-color: #e3b375;
+    border-radius: 50%;
+    padding: 40px;
+    color: white;
+    transition: all 0.3s;
+    
+}
+.store-item 
+{
+    width: 25%;
+    text-align: center;
+    padding: 24px;
+}
+
+
+
+
+
+
+/* styling of store intem and heafing ends here */
+/*  */
+/*  */
+/*  */
+
+/* styling of testimonial section start here */
+
+
+#testimonials-box{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+
+}
+.testimonial-item{
+    width: 25%;
+    text-align: center;
+    background-color: #f5f6fb;
+    padding: 40px 30px;
+    margin: 16px;
+    border-top-left-radius: 45px;
+    border-bottom-left-radius: 45px;
+    border-bottom-right-radius: 45px;
+    transition: box-shadow 0.3s;
+
+}
+.testimonial-image{
+    width:120px;
+    border-radius: 50%;
 }
